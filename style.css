@@ -1,0 +1,12 @@
+img {
+    height:31px;
+    width : 103px;
+}
+
+.logo {
+    justify-content : center ;
+}
+
+.form {
+    border: solid 1px darkgray
+}
