@@ -1,12 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
 img {
     height:31px;
     width : 103px;
 }
 
 .logo {
-    justify-content : center ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form {
-    border: solid 1px darkgray
+    border: solid 1px lightgrey
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#email {
+    font-weight: 100;
+}
+
+#password{
+    font-weight:100;
+}
+
+#continue{
+    background-color: orange;
+    padding: 10px 200px;
+    text-align: center;
+    display: inline-block;
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create:before{
+    background: darkgrey;
+    height:2px;
+    flex: 1;
+    content:'';
+}
+
+.create:after{
+    background: darkgrey;
+    height:2px;
+    flex: 1;
+    content:'';
+}
+
+.link{
+    display:flex ;
+    justify-content: center;
+}
+.link{
+    background-color: lightgrey;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#items{
+    color: blue;
+    list-style-type: none;
+}
+
+footer{
+    font-display: center;
 }
